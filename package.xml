@@ -3,11 +3,15 @@
 <package format="3">
   <name>assignment1_rt</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Assignment 1 RT: UI, Distance Monitor, and Turtle Spawner</description>
   <maintainer email="belal@todo.todo">belal</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
