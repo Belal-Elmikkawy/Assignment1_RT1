@@ -29,5 +29,30 @@ This package enables users to **control two turtles interactively** in turtlesim
 ---
 
 ## 📂 Project Architecture
+assignment1_rt/
+├── launch/
+│ └── assignment1.launch.py # Main launch file (Orchestrator)
+├── assignment1_rt/
+│ ├── init.py
+│ ├── ui_node.py # User Interface (Input)
+│ ├── distance_monitor.py # Safety Controller (Logic)
+│ ├── distance_checks.py # Helper Class (Calculations)
+│ └── turtle_spawn.py # Service Client (Setup)
+├── package.xml
+├── setup.py
+└── setup.cfg
 
+
+---
+
+## 🛠 Prerequisites
+
+Ensure the following are installed:
+
+### ROS2  
+(Humble Hawksbill or newer)
+
+### Turtlesim  
+```bash
+sudo apt install ros-humble-turtlesim
 
