@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: assignment1-rt
+Version: 0.0.0
+Summary: Assignment 1 RT: UI, Distance Monitor, and Spawner
+Maintainer: belal
+Maintainer-email: belal@todo.todo
+License: TODO: License declaration
+Provides-Extra: test
